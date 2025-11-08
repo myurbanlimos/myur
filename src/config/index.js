@@ -4,7 +4,7 @@ import { BookReservations } from '../service/firebaseDB.js';
 dotenv.config();
 
 
-const PORT = process.env.PORT || 3200;
+const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(express.json());
@@ -27,5 +27,5 @@ app.post("/upload-reservations", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log("Port Run From Adeel");
+    console.log("Port Run From Adeel" + PORT);
 })
