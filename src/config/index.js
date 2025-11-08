@@ -4,7 +4,7 @@ import { BookReservations } from '../service/firebaseDB.js';
 dotenv.config();
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3200;
 const app = express();
 
 app.use(express.json());
