@@ -7,7 +7,7 @@ import { SendEmail } from "./EmailTMD.js";
 
 dotenv.config();
 
-const firebaseConfig = { apiKey: process.env.FIREBASE_KEY, authDomain: "my-urban-limos-cffed.firebaseapp.com", databaseURL: "https://my-urban-limos-cffed-default-rtdb.firebaseio.com", projectId: "my-urban-limos-cffed", storageBucket: "my-urban-limos-cffed.firebasestorage.app", messagingSenderId: "380095853229", appId: "1:380095853229:web:fb105edfac7c39d6884c24", measurementId: "G-1DZRDQEFTJ" }
+const firebaseConfig = { apiKey: "AIzaSyC37mHoHSOhOC7KJKG9B26UvEx8upux5cU", authDomain: "my-urban-limos-cffed.firebaseapp.com", databaseURL: "https://my-urban-limos-cffed-default-rtdb.firebaseio.com", projectId: "my-urban-limos-cffed", storageBucket: "my-urban-limos-cffed.firebasestorage.app", messagingSenderId: "380095853229", appId: "1:380095853229:web:fb105edfac7c39d6884c24", measurementId: "G-1DZRDQEFTJ" }
 
 const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
